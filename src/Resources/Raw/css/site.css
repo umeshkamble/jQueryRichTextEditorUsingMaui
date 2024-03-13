@@ -1,0 +1,44 @@
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* general */
+body {
+    background-color: #EFEFEF;
+}
+
+
+/* page */
+.page-wrapper {
+    margin: 0 auto;
+    width: 960px;
+    max-width: 100%;
+}
+
+
+/* box */
+.box-content {
+    background-color: #EFEFEF;
+}
+
+
+textarea {
+    background-color:#FAFAFA;
+    border:#EFEFEF solid 1px;
+    color:#333;
+    height:150px;
+    width:100%;
+}
+
+
+/* richtext custom style */
+.richText {
+    margin-top: 0px;
+    -webkit-box-shadow: 0 0 0px 0 #999;
+    -moz-box-shadow: 0 0 0px 0 #999;
+    box-shadow: 0 0 0px 0 #999;
+}

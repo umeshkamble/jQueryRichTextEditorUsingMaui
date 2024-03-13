@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="RichTextEditorUsingjQuery.MainPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="30,24,30,24" Spacing="10">
+            <Label Style="{StaticResource SubHeadline}" Text="Description" />
+            <Grid HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+                <Grid.HeightRequest>
+                    <OnIdiom Desktop="380" Phone="450" />
+                </Grid.HeightRequest>
+                <WebView
+                    x:Name="webView"
+                    HorizontalOptions="FillAndExpand"
+                    Source="fontawesome5.html"
+                    VerticalOptions="FillAndExpand" />
+            </Grid>
+
+
+            <Button
+                Margin="0,10,0,0"
+                BackgroundColor="{StaticResource Primary}"
+                Clicked="Button_Clicked"
+                Text="Get RitchText Data"
+                TextColor="White" />
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

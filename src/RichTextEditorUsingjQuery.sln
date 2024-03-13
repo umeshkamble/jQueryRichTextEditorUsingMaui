@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34622.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RichTextEditorUsingjQuery", "RichTextEditorUsingjQuery.csproj", "{CAE6092E-CE33-4FBA-A1BB-3E1A369CBD3C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CAE6092E-CE33-4FBA-A1BB-3E1A369CBD3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAE6092E-CE33-4FBA-A1BB-3E1A369CBD3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAE6092E-CE33-4FBA-A1BB-3E1A369CBD3C}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{CAE6092E-CE33-4FBA-A1BB-3E1A369CBD3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAE6092E-CE33-4FBA-A1BB-3E1A369CBD3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAE6092E-CE33-4FBA-A1BB-3E1A369CBD3C}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D0EE2D39-3400-4DA5-B448-AA727102F047}
+	EndGlobalSection
+EndGlobal
